@@ -1,0 +1,21 @@
+:export {
+  active: #03a9f4;
+  inspectorBg: rgba(70, 142, 212, 0.5);
+  inspectorBorder: #03a9f4;
+  highlightBg: rgba(255, 255, 0, 0.5);
+  highlightBorder: red;
+}
+
+.object-factory-hover {
+  border: #03a9f4 solid 2px !important;
+  background-color: rgba(70, 142, 212, 0.5) !important;
+}
+.object-factory-hover * {
+  background-color: transparent !important;
+}
+
+.object-factory-highlight {
+  border: red solid 2px !important;
+  background: rgba(255, 255, 0, 0.5) !important;
+  background-color: rgba(255, 255, 0, 0.5) !important;
+}

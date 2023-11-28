@@ -1,0 +1,15 @@
+@import '../styles/colours';
+
+.object-factory-hover {
+  border: $inspector-border solid 2px !important;
+  background-color: $inspector-bg !important;
+  * {
+    background-color: transparent !important;
+  }
+}
+
+.object-factory-highlight {
+  border: $highlight-border solid 2px !important;
+  background: $highlight-bg !important;
+  background-color: $highlight-bg !important;
+}
